@@ -1,0 +1,13 @@
+{
+    "project_name": "Rust Project",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+    "description": "A Rust project",
+    "author_name": "Anonymous",
+    "author_email": "anonymous@example.com",
+    "license": [
+        "Apache-2.0",
+        "GPL-3.0",
+        "AGPL-3.0",
+        "MIT"
+    ]
+}

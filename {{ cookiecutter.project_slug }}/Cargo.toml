@@ -1,0 +1,13 @@
+[package]
+name = "{{ cookiecutter.project_slug }}"
+version = "0.1.0"
+edition = "2021"
+authors = ["{{ cookiecutter.author_name }} <{{ cookiecutter.author_email }}>"]
+description = "{{ cookiecutter.description }}"
+license = "{{ cookiecutter.license }}"
+repository = ""
+rust-version = ""
+readme = "README.md"
+exclude = ["flake.nix", "flake.lock", ".github/"]
+
+[dependencies]
