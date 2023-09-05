@@ -3,5 +3,5 @@
 ## Usage
 
 ```bash
-cookiecutter gh:Wybxc/rust-nix
+nix run nixpkgs#cookiecutter gh:Wybxc/rust-nix
 ```
