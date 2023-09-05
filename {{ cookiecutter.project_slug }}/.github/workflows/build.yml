@@ -1,3 +1,4 @@
+{%- raw -%}
 name: "Build"
 on:
   pull_request:
@@ -15,3 +16,4 @@ jobs:
         name: wybxc
         authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
     - run: nix flake check
+{%- endraw -%}
