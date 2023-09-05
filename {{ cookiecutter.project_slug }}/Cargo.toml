@@ -6,7 +6,7 @@ authors = ["{{ cookiecutter.author_name }} <{{ cookiecutter.author_email }}>"]
 description = "{{ cookiecutter.description }}"
 license = "{{ cookiecutter.license }}"
 repository = ""
-rust-version = ""
+rust-version = "1.70.0"
 readme = "README.md"
 exclude = ["flake.nix", "flake.lock", ".github/"]
 
